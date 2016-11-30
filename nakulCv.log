@@ -1,10 +1,14 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  29 NOV 2016 21:42
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  29 NOV 2016 21:53
  restricted system commands enabled.
 **nakulCv.tex
 (./nakulCv.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
-(./mcdowellcv.cls
+(./nakulcv.cls
+
+LaTeX Warning: You have requested document class `nakulcv',
+               but the document class provides `mcdowellcv'.
+
 Document Class: mcdowellcv 2015/12/15 v1.1.0 McDowell CV class
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -214,7 +218,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.177 seconds)
+luaotfload | main : initialization completed in 0.230 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe

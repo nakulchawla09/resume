@@ -77,17 +77,17 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 %--------------------------------------------------------------------------------
 %                                    Constants                                  -
 %--------------------------------------------------------------------------------
-\def\afterheaderspace{2pt}
-\def\beforesectionheaderspace{.5pt}
+\def\afterheaderspace{3pt}
+\def\beforesectionheaderspace{4.75pt}
 \def\sectionheadermargin{6pt}
 \def\aftersectionheaderspace{-4pt}
 \def\sectionheaderhrlueheight{0.5pt}
 \def\aftersinglelinesubsectionheaderspace{-18.5pt}
 \def\afterdoublelinesubsectionheaderspace{-10pt}
 \def\aftermultilinesubsectionheaderspace{-6pt}
-\def\afteremptysubsectionheaderspace{0pt}
+\def\afteremptysubsectionheaderspace{3pt}
 \def\subsectionmargin{9pt}
-\def\aftersubsectionspace{.5pt}
+\def\aftersubsectionspace{4pt}
 
 %--------------------------------------------------------------------------------
 %                            Header Setup and Printing                          -
@@ -175,7 +175,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 		\end{tabu}
 		% Add space according to the specidied number of lines
 		\ifnumcomp{#1}{=}{1}{\vspace*{\aftersinglelinesubsectionheaderspace}}{
-			\ifnumcomp{#1}{=}{1}{\vspace*{\afterdoublelinesubsectionheaderspace}}{
+			\ifnumcomp{#1}{=}{2}{\vspace*{\afterdoublelinesubsectionheaderspace}}{
 				\vspace*{\aftermultilinesubsectionheaderspace}
 			}
 		}
