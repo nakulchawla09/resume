@@ -1,0 +1,105 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+%\documentclass[]{nakulcv}
+
+\documentclass[]{mcdowellcv}
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Nakul Chawla}
+\address{\#208,1255 E University Dr\linebreak Tempe,AZ 85281} 
+\contacts{(480)930-6967 \linebreak nchawla3@asu.edu}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Developer BI \& A}{Target Corporation}{July 2013-July2016}
+		\begin{cvsubsection}{Real Estate Database}{}{}
+				\begin{itemize}
+					\item	Developed a full stack MVC web application using SQL Server, .Net, C\# and angularJs. The application created a platform for Tax analyst to enter, edit and store taxes for Target Real Estate.
+					\item Normalized the data to reduce redundancy and increase access speed. 
+					\item Warehoused the complete database and implemented it in SQL Server.
+					\item Implemented Services and REST APIs in .Net\/C\#
+					\item Developed a responsive UI in HTML5, CSS3, bootstrap and angularJs.
+				\end{itemize}
+			\end{cvsubsection}
+			\begin{cvsubsection}{Block Group Assignment}{}{}
+				\begin{itemize}
+					\item The aim was to map to each guest at Target into a polygonal location area whose latitude-longitude was available.
+					\item Developed python programs on pyspark-1.6 to analyze Target guest data.   
+					\item Lambda python programming to write MapReduce in Spark(pyspark) to analyze geospatial data.
+				\end{itemize}
+			\end{cvsubsection}
+			\begin{cvsubsection}{Vendor Income Analysis}{}{}
+				\begin{itemize}
+					\item Developed Vendor Income Portal to access all reports relating to CNA (Cost and Negotiation Agreements).
+					\item Cleansing of data to get correct and most updated data.
+					\item Created drill downs for all metrics down till the transaction level to analyze the profit-loss in Audits, earnings through interest, etc
+					\item Created different views and dashboards for each metric by month. Different views like markdowns, promotions, vendors, category, etc.
+				\end{itemize}
+			\end{cvsubsection}
+		\end{cvsubsection}
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Tempe, AZ}{Arizona State University}{Fall 2016 -- Expected Fall 2018}
+			\begin{itemize}
+				\item Masters in Computer Science
+				\item Graduate Coursework: Statistical Machine Learning; Principles of Programming Languages; Distributed \& Multiprocessor OS
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Bangalore, KA}{M.S.Ramaiah I.T}{Fall 2009 -- May 2013}
+			\begin{itemize}
+				\item B.E. in Information Science, May 2013 GPA:3.53
+				\item UG Coursework: Databases;DBMS;Algorithms;Business Intelligence; Data Structures and Algorithms;
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{KDD 2016 Paper Acceptance Rank Prediction} (2016). Predicting the ranking of an institution based on heterogenous data provided by Microsoft Academic Graph API. Used Brown's Simple Exponential Smoothing, SVM Rank and Gradient Boosting Decision Trees to predict ranks and evaluating them using the Normalized Discounted Cumulative Gain. Python,SQL 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Pyramid Award at Target:}for developing and automating Vendor Income Analysis faster than designated time period saving 100 hours of manual month effort.
+				\item \textbf{Partner's Award:}at Target for Vendor Income Analysis. 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item C; C\#.NET; SQL; JavaScript; AngularJs; JQuery; Python;  
+				\item Vim; Visual Studio; Microsoft SQL Server; Teradata;WebStorm; PyCharm;
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+\end{document}
