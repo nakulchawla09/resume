@@ -1,7 +1,7 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  6 JAN 2017 01:05
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  5 JAN 2017 02:19
  restricted system commands enabled.
-**nakulCv.tex
-(./nakulCv.tex
+**ashCv.tex
+(./ashCv.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (./nakulcv.cls
@@ -218,7 +218,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.190 seconds)
+luaotfload | main : initialization completed in 0.177 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -725,9 +725,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
-)
-(./nakulCv.aux)
-\openout1 = nakulCv.aux
+) (./ashCv.aux)
+\openout1 = ashCv.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
@@ -929,58 +928,75 @@ LaTeX Font Warning: Font shape `EU2/TimesNewRoman(0)/m/sc' undefined
 (Font)              using `EU2/TimesNewRoman(0)/m/n' instead on input line 41.
 
 
-Overfull \hbox (18.00002pt too wide) in paragraph at lines 43--43
+Overfull \hbox (18.00002pt too wide) in paragraph at lines 48--48
 [][]
  []
 
 
-Overfull \hbox (18.00002pt too wide) in paragraph at lines 52--52
+Overfull \hbox (18.00002pt too wide) in paragraph at lines 55--55
 []
  []
 
 
-Overfull \hbox (18.00002pt too wide) in paragraph at lines 59--59
+Overfull \hbox (18.00002pt too wide) in paragraph at lines 61--61
 []
  []
 
 
-! LaTeX Error: \begin{cvsection} on input line 41 ended by \end{document}.
+Overfull \hbox (18.00002pt too wide) in paragraph at lines 67--67
+[]
+ []
+
+
+! LaTeX Error: \begin{list} on input line 42 ended by \end{cvsection}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \end{document}
-                  
+l.73 		\end{cvsection}
+                    
 ? 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./nakulCv.aux)
+
+! LaTeX Error: \begin{adjustwidth} on input line 42 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \end{document}
+                  
+? 
+[2] (./ashCv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
-(\end occurred inside a group at level 1)
+(\end occurred inside a group at level 3)
 
+### semi simple group (level 3) entered at line 42 (\begingroup)
+### semi simple group (level 2) entered at line 42 (\begingroup)
 ### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
  18433 strings out of 495119
  125171,460012 words of node,token memory allocated
- 1412 words of node memory still in use:
-   7 hlist, 2 vlist, 3 rule, 119 glue, 1 kern, 43 attribute, 46 glue_spec, 43 at
+ 1602 words of node memory still in use:
+   7 hlist, 2 vlist, 3 rule, 141 glue, 1 kern, 52 attribute, 46 glue_spec, 52 at
 tribute_list, 1 write nodes
-   avail lists: 2:659,3:230,4:17,5:106,6:2542,7:1068,8:67,9:262,10:5,11:248
+   avail lists: 1:1,2:752,3:247,4:27,5:129,6:2556,7:1112,8:70,9:303,10:4,11:259
  21538 multiletter control sequences out of 65536+600000
  43 fonts using 5555655 bytes
- 57i,15n,67p,792b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 57i,15n,67p,790b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
 </Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman.ttf>
-Output written on nakulCv.pdf (1 page, 75169 bytes).
+Output written on ashCv.pdf (2 pages, 77887 bytes).
 
-PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+PDF statistics: 25 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
