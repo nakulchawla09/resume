@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  6 JAN 2017 01:05
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  8 FEB 2017 15:56
  restricted system commands enabled.
 **nakulCover.tex
 (./nakulCover.tex
@@ -349,7 +349,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.222 seconds)
+luaotfload | main : initialization completed in 0.223 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -374,10 +374,13 @@ LaTeX Font Info:    Try loading font information for EU2+lmr on input line 105.
 File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 luaotfload | db : Font names database loaded from /Users/nakulchawla/Library/tex
-live/2016/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(compiling lu
-c: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-re
-gular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-ca
-che/generic/fonts/otl/lmroman10-regular.luc))
+live/2016/texmf-var/luatex-cache/generic/names/luaotfload-names.lua.gz(compiling
+ luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10
+-regular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex
+-cache/generic/fonts/otl/lmroman10-regular.luc)(loading failed: /Users/nakulchaw
+la/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regul
+ar.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache
+/generic/fonts/otl/lmroman10-regular.lua))
 (/usr/local/texlive/2016/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
 ther characters in Unicode lower plane
@@ -389,20 +392,32 @@ ther characters in Unicode lower plane
 File: t3enc.def 2001/12/31 T3 encoding
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /lmromanslant10-regular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/t
-exmf-var/luatex-cache/generic/fonts/otl/lmromanslant10-regular.luc)(compiling lu
-c: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-it
-alic.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cac
-he/generic/fonts/otl/lmroman10-italic.luc)(compiling luc: /usr/local/texlive/201
-6/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)(load luc: /Users/
-nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroma
-n10-bold.luc)
+exmf-var/luatex-cache/generic/fonts/otl/lmromanslant10-regular.luc)(loading fail
+ed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts
+/otl/lmromanslant10-regular.luc)(load lua: /Users/nakulchawla/Library/texlive/20
+16/texmf-var/luatex-cache/generic/fonts/otl/lmromanslant10-regular.lua)(compilin
+g luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman1
+0-italic.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex
+-cache/generic/fonts/otl/lmroman10-italic.luc)(loading failed: /Users/nakulchawl
+a/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic
+.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/g
+eneric/fonts/otl/lmroman10-italic.lua)(compiling luc: /usr/local/texlive/2016/te
+xmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)(load luc: /Users/naku
+lchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-
+bold.luc)(loading failed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luat
+ex-cache/generic/fonts/otl/lmroman10-bold.luc)(load lua: /Users/nakulchawla/Libr
+ary/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.lua)
 LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmss.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmss.fd
 File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
 l/lmsans10-regular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-
-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc))
+var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc)(loading failed: /Users/
+nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmsans
+10-regular.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luat
+ex-cache/generic/fonts/otl/lmsans10-regular.lua))
 \tipaTiiicode=\count127
 \tipasavetokens=\toks21
 \tipachecktokens=\toks22
@@ -610,7 +625,10 @@ Package: fontawesome 2015/11/04 v4.4.0 font awesome icons
 luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "File not fou
 nd: fonts/FontAwesome.".(compiling luc: /usr/local/texlive/2016/texmf-var/luatex
 -cache/generic/fonts/otl/fontawesome.luc)(load luc: /Users/nakulchawla/Library/t
-exlive/2016/texmf-var/luatex-cache/generic/fonts/otl/fontawesome.luc)
+exlive/2016/texmf-var/luatex-cache/generic/fonts/otl/fontawesome.luc)(loading fa
+iled: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fon
+ts/otl/fontawesome.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-
+var/luatex-cache/generic/fonts/otl/fontawesome.lua)
 luaotfload | aux : font no 23 (<unknown>) defines no feature for script latn
 luaotfload | aux : no font with id 23
 .................................................
@@ -749,7 +767,10 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 95.
 \c@colorCounter=\count144
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-regular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var
-/luatex-cache/generic/fonts/otl/roboto-regular.luc)
+/luatex-cache/generic/fonts/otl/roboto-regular.luc)(loading failed: /Users/nakul
+chawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-regu
+lar.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cach
+e/generic/fonts/otl/roboto-regular.lua)
 luaotfload | aux : font no 24 (<unknown>) defines no feature for script latn
 luaotfload | aux : no font with id 24
 .................................................
@@ -763,19 +784,26 @@ t  with language
 luaotfload | aux : no font with id 24(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/roboto-bold.luc)(load luc: /Users/nakulcha
 wla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-bold.lu
-c)
+c)(loading failed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cach
+e/generic/fonts/otl/roboto-bold.luc)(load lua: /Users/nakulchawla/Library/texliv
+e/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-bold.lua)
 luaotfload | aux : font no 25 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 25(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/roboto-italic.luc)(load luc: /Users/nakulc
 hawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-itali
-c.luc)
+c.luc)(loading failed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-
+cache/generic/fonts/otl/roboto-italic.luc)(load lua: /Users/nakulchawla/Library/
+texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-italic.lua)
 luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 26(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/roboto-bolditalic.luc)(load luc: /Users/na
 kulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-b
-olditalic.luc)
+olditalic.luc)(loading failed: /Users/nakulchawla/Library/texlive/2016/texmf-var
+/luatex-cache/generic/fonts/otl/roboto-bolditalic.luc)(load lua: /Users/nakulcha
+wla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-boldita
+lic.lua)
 luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 27
@@ -798,7 +826,10 @@ licFont=*-BoldItalic].
 .................................................
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-thin.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/lu
-atex-cache/generic/fonts/otl/roboto-thin.luc)
+atex-cache/generic/fonts/otl/roboto-thin.luc)(loading failed: /Users/nakulchawla
+/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-thin.luc)(
+load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic
+/fonts/otl/roboto-thin.lua)
 luaotfload | aux : font no 28 (<unknown>) defines no feature for script latn
 luaotfload | aux : no font with id 28
 .................................................
@@ -811,19 +842,27 @@ t  with language
 luaotfload | aux : no font with id 28(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/roboto-medium.luc)(load luc: /Users/nakulc
 hawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-mediu
-m.luc)
+m.luc)(loading failed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-
+cache/generic/fonts/otl/roboto-medium.luc)(load lua: /Users/nakulchawla/Library/
+texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-medium.lua)
 luaotfload | aux : font no 29 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 29(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/roboto-thinitalic.luc)(load luc: /Users/na
 kulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-t
-hinitalic.luc)
+hinitalic.luc)(loading failed: /Users/nakulchawla/Library/texlive/2016/texmf-var
+/luatex-cache/generic/fonts/otl/roboto-thinitalic.luc)(load lua: /Users/nakulcha
+wla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-thinita
+lic.lua)
 luaotfload | aux : font no 30 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 30(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/roboto-mediumitalic.luc)(load luc: /Users/
 nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto
--mediumitalic.luc)
+-mediumitalic.luc)(loading failed: /Users/nakulchawla/Library/texlive/2016/texmf
+-var/luatex-cache/generic/fonts/otl/roboto-mediumitalic.luc)(load lua: /Users/na
+kulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-m
+ediumitalic.lua)
 luaotfload | aux : font no 31 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 31
@@ -846,14 +885,23 @@ ItalicFont=*-MediumItalic].
 .................................................
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-regular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/te
-xmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-regular.luc)
+xmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-regular.luc)(loading failed
+: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/o
+tl/sourcesanspro-regular.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/
+texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-regular.lua)
 \g__fontspec_family_SourceSansPro_int=\count146
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-bold.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf
--var/luatex-cache/generic/fonts/otl/sourcesanspro-bold.luc)(compiling luc: /usr/
-local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-it.luc
-)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/gener
-ic/fonts/otl/sourcesanspro-it.luc)
+-var/luatex-cache/generic/fonts/otl/sourcesanspro-bold.luc)(loading failed: /Use
+rs/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sou
+rcesanspro-bold.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var
+/luatex-cache/generic/fonts/otl/sourcesanspro-bold.lua)(compiling luc: /usr/loca
+l/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-it.luc)(lo
+ad luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/f
+onts/otl/sourcesanspro-it.luc)(loading failed: /Users/nakulchawla/Library/texliv
+e/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-it.luc)(load lua: 
+/Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
+/sourcesanspro-it.lua)
 luaotfload | aux : font no 34 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 34
@@ -882,7 +930,10 @@ t latn with language dflt
 luaotfload | aux : no font with id 34(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/sourcesanspro-boldit.luc)(load luc: /Users
 /nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourc
-esanspro-boldit.luc)
+esanspro-boldit.luc)(loading failed: /Users/nakulchawla/Library/texlive/2016/tex
+mf-var/luatex-cache/generic/fonts/otl/sourcesanspro-boldit.luc)(load lua: /Users
+/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourc
+esanspro-boldit.lua)
 luaotfload | aux : font no 35 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 35
@@ -912,19 +963,31 @@ ont=*-BoldIt].
 .................................................
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-light.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texm
-f-var/luatex-cache/generic/fonts/otl/sourcesanspro-light.luc)(compiling luc: /us
-r/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-semi
-bold.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cac
-he/generic/fonts/otl/sourcesanspro-semibold.luc)(compiling luc: /usr/local/texli
-ve/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-lightit.luc)(load
- luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fon
-ts/otl/sourcesanspro-lightit.luc)
+f-var/luatex-cache/generic/fonts/otl/sourcesanspro-light.luc)(loading failed: /U
+sers/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/s
+ourcesanspro-light.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-
+var/luatex-cache/generic/fonts/otl/sourcesanspro-light.lua)(compiling luc: /usr/
+local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-semibo
+ld.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache
+/generic/fonts/otl/sourcesanspro-semibold.luc)(loading failed: /Users/nakulchawl
+a/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-se
+mibold.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-c
+ache/generic/fonts/otl/sourcesanspro-semibold.lua)(compiling luc: /usr/local/tex
+live/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-lightit.luc)(lo
+ad luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/f
+onts/otl/sourcesanspro-lightit.luc)(loading failed: /Users/nakulchawla/Library/t
+exlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-lightit.luc)(
+load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic
+/fonts/otl/sourcesanspro-lightit.lua)
 luaotfload | aux : font no 38 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 38(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/sourcesanspro-semiboldit.luc)(load luc: /U
 sers/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/s
-ourcesanspro-semiboldit.luc)
+ourcesanspro-semiboldit.luc)(loading failed: /Users/nakulchawla/Library/texlive/
+2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-semiboldit.luc)(load
+ lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fon
+ts/otl/sourcesanspro-semiboldit.lua)
 luaotfload | aux : font no 39 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 39
@@ -1059,7 +1122,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 *** some features of other encodings may conflict, resulting in poor output.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /latinmodern-math.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-v
-ar/luatex-cache/generic/fonts/otl/latinmodern-math.luc)
+ar/luatex-cache/generic/fonts/otl/latinmodern-math.luc)(loading failed: /Users/n
+akulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/latinmo
+dern-math.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luate
+x-cache/generic/fonts/otl/latinmodern-math.lua)
 \g__fontspec_family_latinmodern-math.otf_int=\count153
 luaotfload | aux : font no 41 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
@@ -1289,14 +1355,10 @@ l.90 \makelettertitle
 l.90 \makelettertitle
                    
 ? 
-! You can't use `macro parameter character #' in horizontal mode.
-l.96 ...SQL Server, the services and APIs in .Net/C#
-                                                  , functionality in angular...
-? 
 ! Undefined control sequence.
 \makeletterclosing ...rtextstyle {\@letterclosing 
                                                   } \\\\ \letternamestyle {\...
-l.108 \makeletterclosing
+l.127 \makeletterclosing
                       
 ? 
 
@@ -1306,7 +1368,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \makeletterclosing
+l.127 \makeletterclosing
                       
 ? 
 
@@ -1316,23 +1378,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \makeletterclosing
+l.127 \makeletterclosing
                       
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 
 (./nakulCover.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `nakulCover.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
@@ -1343,15 +1405,15 @@ Here is how much of LuaTeX's memory you used:
  726 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 37 glue, 19 attribute, 56 glue_spec, 19 attribute_l
 ist, 1 write nodes
-   avail lists: 1:7,2:278,3:55,4:50,5:421,6:2489,7:633,8:24,9:93,10:16,11:227
+   avail lists: 1:7,2:278,3:50,4:50,5:655,6:3823,7:898,8:24,9:104,10:16,11:334
  28776 multiletter control sequences out of 65536+600000
- 77 fonts using 13902391 bytes
+ 77 fonts using 19852039 bytes
  61i,11n,69p,888b,336s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/SourceSansPro-Light.otf><./fonts/SourceSansPro-Bold.otf><./fonts/Source
 SansPro-It.otf><./fonts/Roboto-Regular.ttf><./fonts/FontAwesome.otf><./fonts/Rob
 oto-Italic.ttf><./fonts/SourceSansPro-Regular.otf><./fonts/Roboto-Bold.ttf><./fo
 nts/Roboto-Thin.ttf>
-Output written on nakulCover.pdf (1 page, 40160 bytes).
+Output written on nakulCover.pdf (1 page, 42053 bytes).
 
 PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

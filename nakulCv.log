@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  6 JAN 2017 01:05
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  8 FEB 2017 15:56
  restricted system commands enabled.
 **nakulCv.tex
 (./nakulCv.tex
@@ -218,7 +218,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.190 seconds)
+luaotfload | main : initialization completed in 0.143 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -243,10 +243,13 @@ LaTeX Font Info:    Try loading font information for EU2+lmr on input line 105.
 File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 luaotfload | db : Font names database loaded from /Users/nakulchawla/Library/tex
-live/2016/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(compiling lu
-c: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-re
-gular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-ca
-che/generic/fonts/otl/lmroman10-regular.luc))
+live/2016/texmf-var/luatex-cache/generic/names/luaotfload-names.lua.gz(compiling
+ luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10
+-regular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex
+-cache/generic/fonts/otl/lmroman10-regular.luc)(loading failed: /Users/nakulchaw
+la/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regul
+ar.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache
+/generic/fonts/otl/lmroman10-regular.lua))
 (/usr/local/texlive/2016/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
 ther characters in Unicode lower plane
@@ -255,20 +258,32 @@ ther characters in Unicode lower plane
 File: t3enc.def 2001/12/31 T3 encoding
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /lmromanslant10-regular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/t
-exmf-var/luatex-cache/generic/fonts/otl/lmromanslant10-regular.luc)(compiling lu
-c: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-it
-alic.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cac
-he/generic/fonts/otl/lmroman10-italic.luc)(compiling luc: /usr/local/texlive/201
-6/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)(load luc: /Users/
-nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroma
-n10-bold.luc)
+exmf-var/luatex-cache/generic/fonts/otl/lmromanslant10-regular.luc)(loading fail
+ed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts
+/otl/lmromanslant10-regular.luc)(load lua: /Users/nakulchawla/Library/texlive/20
+16/texmf-var/luatex-cache/generic/fonts/otl/lmromanslant10-regular.lua)(compilin
+g luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman1
+0-italic.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex
+-cache/generic/fonts/otl/lmroman10-italic.luc)(loading failed: /Users/nakulchawl
+a/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic
+.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/g
+eneric/fonts/otl/lmroman10-italic.lua)(compiling luc: /usr/local/texlive/2016/te
+xmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)(load luc: /Users/naku
+lchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-
+bold.luc)(loading failed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luat
+ex-cache/generic/fonts/otl/lmroman10-bold.luc)(load lua: /Users/nakulchawla/Libr
+ary/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.lua)
 LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmss.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmss.fd
 File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
 l/lmsans10-regular.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-
-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc))
+var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc)(loading failed: /Users/
+nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmsans
+10-regular.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luat
+ex-cache/generic/fonts/otl/lmsans10-regular.lua))
 \tipaTiiicode=\count121
 \tipasavetokens=\toks16
 \tipachecktokens=\toks17
@@ -433,7 +448,10 @@ luaotfload | cache : Lookup cache loaded from /Users/nakulchawla/Library/texlive
 /2016/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(compilin
 g luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/times-ne
 w-roman.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-
-cache/generic/fonts/otl/times-new-roman.luc)
+cache/generic/fonts/otl/times-new-roman.luc)(loading failed: /Users/nakulchawla/
+Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman.lu
+c)(load lua: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/gene
+ric/fonts/otl/times-new-roman.lua)
 luaotfload | aux : font no 22 (<unknown>) does not define feature liga for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 22
@@ -457,13 +475,22 @@ luaotfload | aux : no font with id 22
 \g__fontspec_family_TimesNewRoman_int=\count126
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /times-new-roman-bold-italic.luc)(load luc: /Users/nakulchawla/Library/texlive/2
-016/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman-bold-italic.luc)(co
-mpiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/ti
-mes-new-roman-bold.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-
-var/luatex-cache/generic/fonts/otl/times-new-roman-bold.luc)(compiling luc: /usr
-/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman-ita
-lic.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cach
-e/generic/fonts/otl/times-new-roman-italic.luc)
+016/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman-bold-italic.luc)(lo
+ading failed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/gen
+eric/fonts/otl/times-new-roman-bold-italic.luc)(load lua: /Users/nakulchawla/Lib
+rary/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman-bold-
+italic.lua)(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generi
+c/fonts/otl/times-new-roman-bold.luc)(load luc: /Users/nakulchawla/Library/texli
+ve/2016/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman-bold.luc)(loadi
+ng failed: /Users/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generi
+c/fonts/otl/times-new-roman-bold.luc)(load lua: /Users/nakulchawla/Library/texli
+ve/2016/texmf-var/luatex-cache/generic/fonts/otl/times-new-roman-bold.lua)(compi
+ling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/times
+-new-roman-italic.luc)(load luc: /Users/nakulchawla/Library/texlive/2016/texmf-v
+ar/luatex-cache/generic/fonts/otl/times-new-roman-italic.luc)(loading failed: /U
+sers/nakulchawla/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/t
+imes-new-roman-italic.luc)(load lua: /Users/nakulchawla/Library/texlive/2016/tex
+mf-var/luatex-cache/generic/fonts/otl/times-new-roman-italic.lua)
 luaotfload | aux : font no 22 (<unknown>) does not define feature liga for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 22
@@ -972,12 +999,12 @@ Here is how much of LuaTeX's memory you used:
  1412 words of node memory still in use:
    7 hlist, 2 vlist, 3 rule, 119 glue, 1 kern, 43 attribute, 46 glue_spec, 43 at
 tribute_list, 1 write nodes
-   avail lists: 2:659,3:230,4:17,5:106,6:2542,7:1068,8:67,9:262,10:5,11:248
+   avail lists: 2:659,3:230,4:18,5:106,6:2637,7:1080,8:67,9:262,10:5,11:253
  21538 multiletter control sequences out of 65536+600000
- 43 fonts using 5555655 bytes
+ 43 fonts using 7930175 bytes
  57i,15n,67p,792b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
 </Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman.ttf>
-Output written on nakulCv.pdf (1 page, 75169 bytes).
+Output written on nakulCv.pdf (1 page, 75807 bytes).
 
 PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream
