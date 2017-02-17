@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  17 FEB 2017 04:38
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  17 FEB 2017 05:20
  restricted system commands enabled.
 **nakulCv.tex
 (./nakulCv.tex
@@ -218,7 +218,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.133 seconds)
+luaotfload | main : initialization completed in 0.163 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -990,13 +990,13 @@ Here is how much of LuaTeX's memory you used:
  1414 words of node memory still in use:
    7 hlist, 2 vlist, 3 rule, 118 glue, 1 kern, 44 attribute, 47 glue_spec, 44 at
 tribute_list, 1 write nodes
-   avail lists: 1:1,2:659,3:232,4:22,5:109,6:2613,7:1019,8:80,9:251,10:5,11:252
+   avail lists: 1:1,2:659,3:232,4:21,5:109,6:2603,7:1017,8:80,9:251,10:5,11:251
  21668 multiletter control sequences out of 65536+600000
  54 fonts using 9667791 bytes
  57i,15n,67p,792b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf
 ></Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman.ttf>
-Output written on nakulCv.pdf (1 page, 79764 bytes).
+Output written on nakulCv.pdf (1 page, 79748 bytes).
 
 PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
