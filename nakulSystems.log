@@ -1,7 +1,7 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  17 FEB 2017 16:12
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  23 FEB 2017 12:57
  restricted system commands enabled.
-**chughcv.tex
-(./chughcv.tex
+**nakulSystems.tex
+(./nakulSystems.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (./nakulcv.cls
@@ -218,7 +218,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.132 seconds)
+luaotfload | main : initialization completed in 0.180 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -726,29 +726,32 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-(./chughcv.aux)
-\openout1 = chughcv.aux
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./nakulSystems.aux)
+\openout1 = nakulSystems.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 35.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 35.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 36.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 36.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -850,64 +853,64 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 35.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 35.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 35.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 35.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 35.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 35.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 35.
-LaTeX Font Info:    Redeclaring math accent \check on input line 35.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 35.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 35.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 35.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 35.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 35.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 36.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 36.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 36.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 36.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 36.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 36.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 36.
+LaTeX Font Info:    Redeclaring math accent \check on input line 36.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 36.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 36.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 36.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 36.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 35.
+(Font)              `operators' in the math version `normal' on input line 36.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/TimesNewRoman(0)/m/n on input line 3
-5.
+6.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 35.
+(Font)              `operators' in the math version `bold' on input line 36.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/TimesNewRoman(0)/m/n on input line 
-35.
+36.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU2/TimesNewRoman(0)/m/n --> EU2/TimesNewRoman(0)/m/n on
- input line 35.
+ input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU2/TimesNewRoman(0)/m/it on input line
- 35.
+ 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU2/TimesNewRoman(0)/bx/n on input line
- 35.
+ 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 35.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 35.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU2/TimesNewRoman(0)/m/n --> EU2/TimesNewRoman(0)/bx/n o
-n input line 35.
+n input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU2/TimesNewRoman(0)/bx/it on input li
-ne 35.
+ne 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 35.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 35.
-LaTeX Info: Redefining \microtypecontext on input line 35.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 36.
+LaTeX Info: Redefining \microtypecontext on input line 36.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `smallcapsi'.
@@ -926,37 +929,100 @@ Inserting `luaotfload.letterspace' at position 2 in `pre_linebreak_filter'.
 Inserting `luaotfload.letterspace' at position 2 in `hpack_filter'.
 
 LaTeX Font Warning: Font shape `EU2/TimesNewRoman(0)/m/sc' undefined
-(Font)              using `EU2/TimesNewRoman(0)/m/n' instead on input line 41.
+(Font)              using `EU2/TimesNewRoman(0)/m/n' instead on input line 42.
 
 
-Overfull \hbox (18.00002pt too wide) in paragraph at lines 43--43
+Overfull \hbox (18.00002pt too wide) in paragraph at lines 44--44
 [][]
  []
 
+
+Overfull \hbox (18.00002pt too wide) in paragraph at lines 53--53
+[]
+ []
+
+
+Overfull \hbox (18.00002pt too wide) in paragraph at lines 59--59
+[]
+ []
+
+
+Overfull \hbox (18.00002pt too wide) in paragraph at lines 67--67
+[]
+ []
+
+
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 68--68
+[][]
+ []
+
+
+Overfull \hbox (36.00002pt too wide) in paragraph at lines 80--80
+[]
+ []
+
+
+! LaTeX Error: \begin{list} on input line 67 ended by \end{cvsection}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 	\end{cvsection}
+                   
+? 
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 105.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmtt.fd
+File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
+l/lmmono9-regular.luc)(load luc: /Users/princechawla/Library/texlive/2016/texmf-
+var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc)
+
+! LaTeX Error: \begin{adjustwidth} on input line 67 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \end{document}
+                  
+? 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./chughcv.aux)
+(./nakulSystems.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
+(\end occurred inside a group at level 7)
+
+### semi simple group (level 7) entered at line 67 (\begingroup)
+### semi simple group (level 6) entered at line 67 (\begingroup)
+### semi simple group (level 5) entered at line 66 (\begingroup)
+### semi simple group (level 4) entered at line 43 (\begingroup)
+### semi simple group (level 3) entered at line 43 (\begingroup)
+### semi simple group (level 2) entered at line 43 (\begingroup)
+### semi simple group (level 1) entered at line 42 (\begingroup)
+### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 18433 strings out of 495119
+ 18593 strings out of 495119
  125171,460012 words of node,token memory allocated
- 1348 words of node memory still in use:
-   7 hlist, 2 vlist, 3 rule, 111 glue, 1 kern, 41 attribute, 46 glue_spec, 41 at
-tribute_list, 1 write nodes
-   avail lists: 1:1,2:559,3:192,4:26,5:127,6:3023,7:976,8:55,9:215,10:5,11:289
- 21538 multiletter control sequences out of 65536+600000
- 43 fonts using 7930175 bytes
- 57i,15n,67p,792b,596s stack positions out of 5000i,500n,10000p,200000b,100000s
-</Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman.ttf>
-Output written on chughcv.pdf (1 page, 78501 bytes).
+ 1524 words of node memory still in use:
+   7 hlist, 2 vlist, 3 rule, 131 glue, 1 kern, 45 attribute, 49 glue_spec, 45 at
+tribute_list, 1 shape, 1 write nodes
+   avail lists: 1:1,2:695,3:248,4:26,5:91,6:2291,7:1032,8:85,9:273,10:5,11:216
+ 21669 multiletter control sequences out of 65536+600000
+ 54 fonts using 9667791 bytes
+ 57i,15n,67p,797b,632s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf
+></Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman.ttf>
+Output written on nakulSystems.pdf (1 page, 78529 bytes).
 
-PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,118 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+%\documentclass[]{nakulcv}
+
+\documentclass[]{nakulcv}
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{url}
+
+% Set applicant's personal data for header
+\name{Nakul Chawla}
+\address{\#208,1255 E University Dr\linebreak Tempe,AZ 85281} 
+\contacts{(480)930-6967 \linebreak nakulchawla09@gmail.com} 
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Developer BI \& A}{Target Corporation}{July 2013-July 2016}
+		\begin{cvsubsection}{Real Estate Database}{}{}
+				\begin{itemize}
+					\item	Developed a full stack MVC web application using SQL Server, .Net, C\#.
+					\item Implemented the complete front end in angularjs 1.3.
+					\item Implemented services and controllers in angularjs.
+					\item Rest APIs and responsive UI using HTML5 and CSS3.
+					\item Data normalization to reduce redundancy and increasing access speed.
+					\item Data warehousing and implementation in SQL Server.
+				\end{itemize}
+			\end{cvsubsection}
+			\begin{cvsubsection}{Block Group Assignment}{}{}
+				\begin{itemize}
+					\item Analyzing guest shopping patterns at Target using distributed database systems.
+					\item Managing large scale data in hadoop for persistency.
+					\item Analysis in in-memory distributed cluster of spark-1.4.
+					\item Visualized all guests and their movements on d3.js.
+				\end{itemize}
+			\end{cvsubsection}
+			\begin{cvsubsection}{Vendor Income}{}{}
+				\begin{itemize}
+					\item Developed the complete front end of the CNA-Vendor Income in HTML5 and CSS3.
+					\item All functionality written in javaScript and jQuery.
+					\item Multiple levels of drill down reports with graphs to show the audit and item level vendor data.
+				\end{itemize}
+			\end{cvsubsection}
+			\begin{cvsubsection}{Inventory Management}{}{}
+				\begin{itemize}
+					\item Developed and designed various pages for the inventory team to show the shortage metrics.
+					\item Fully responsive pages in HTML5 and CSS3 with complete jQuery functionality and d3.js graphs.
+					\item Dynamic resizing and hiding of tables and graphs for better user experience. 
+				\end{itemize}
+			\end{cvsubsection}
+		\end{cvsubsection}
+		\end{cvsection}
+		\begin{cvsection}{Education}
+		\begin{cvsubsection}{Tempe, AZ}{Arizona State University}{Fall 2016 -- Expected Fall 2018}
+			\begin{itemize}
+				\item Masters in Computer Science, GPA:3.33
+				\item Graduate Coursework: Statistical Machine Learning; Principles of Programming Languages; Distributed Database Systems; Knowledge Representation \& Reasoning; 
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Bangalore, KA}{M.S.Ramaiah I.T}{Fall 2009 -- May 2013}
+			\begin{itemize}
+				\item B.E. Information Science, May 2013 GPA:3.53
+				\item UG Coursework: Database systems; DBMS; Business Intelligence; Data Structures and Algorithms; Object Oriented Programming; Internet Programming;
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{KDD 2016 Paper Acceptance Rank Prediction} (2016). Predicting the ranking of an institution based on heterogeneous data provided by Microsoft Academic Graph API. Used Brown's Simple Exponential Smoothing, SVM Rank and Gradient Boosting Decision Trees to predict ranks and evaluating them using the Normalized Discounted Cumulative Gain.\textbf{Python,SQL, Google Big Query} 
+				\item \textbf{Distributed Database Systems} (2017). Setting up a 3 node hadoop cluster, and geo-spark for analyzing hot spots for cab drivers in a city. \textbf{Scala}
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Pyramid Award at Target:}for developing and automating Vendor Income Analysis faster than designated time period saving 100 hours of manual effort every month.
+				\item \textbf{Partner's Award:}at Target for Vendor Income Analysis. 
+				\item \textbf{Research/Travel grant reviewer-GPSA:} Reviewing and approving grant applications from candidates in research. 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item C;C++;Python; C\#.NET; SQL; JavaScript; AngularJs; JQuery; R; HTML5; CSS3; d3.js; postgresql;
+				\item Vim; Visual Studio; Microsoft SQL Server; Teradata;WebStorm; PyCharm; IIS; Linux power user;
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+Portfolio Website\footnote{\url{www.nakulchawla.com}}
+\end{document}
