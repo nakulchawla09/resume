@@ -23,10 +23,10 @@
 
 % Set up the fonts according to options
 \def\mainfontsize{10pt}
-\def\mainfontface{Times New Roman}
+\def\mainfontface{Computer Modern}
 
-\DeclareOption{calibri}{%
-  \def\mainfontface{Calibri}
+\DeclareOption{Computer Modern}{%
+  \def\mainfontface{Computer Modern}
 }
 
 \ProcessOptions\relax
@@ -35,12 +35,13 @@
 \LoadClass[letterpaper,\mainfontsize]{article} 
 
 % Set document margins
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
+\usepackage[left=0.30in,top=0.30in,right=0.30in,bottom=0.30in]{geometry} 
 
 % Set font face
 \usepackage{fontspec}
-\setmainfont[SmallCapsFeatures={Renderer=Basic},
-Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
+%\setmainfont[SmallCapsFeatures={Renderer=Basic},
+%Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
+%Ligatures={TeX }]{\mainfontface}
 
 % Remove paragraph indentation
 \usepackage[parfill]{parskip} 
@@ -78,16 +79,16 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 %                                    Constants                                  -
 %--------------------------------------------------------------------------------
 \def\afterheaderspace{1pt}
-\def\beforesectionheaderspace{.5pt}
+\def\beforesectionheaderspace{0pt}
 \def\sectionheadermargin{6pt}
-\def\aftersectionheaderspace{-3pt}
+\def\aftersectionheaderspace{0pt}
 \def\sectionheaderhrlueheight{0.5pt}
-\def\aftersinglelinesubsectionheaderspace{-18.5pt}
-\def\afterdoublelinesubsectionheaderspace{-9pt}
-\def\aftermultilinesubsectionheaderspace{-5pt}
+\def\aftersinglelinesubsectionheaderspace{-5.5pt}
+\def\afterdoublelinesubsectionheaderspace{0pt}
+\def\aftermultilinesubsectionheaderspace{0pt}
 \def\afteremptysubsectionheaderspace{0pt}
-\def\subsectionmargin{9pt}
-\def\aftersubsectionspace{.5pt}
+\def\subsectionmargin{6pt}
+\def\aftersubsectionspace{-5pt}
 
 %--------------------------------------------------------------------------------
 %                            Header Setup and Printing                          -
