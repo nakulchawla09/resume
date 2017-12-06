@@ -78,8 +78,8 @@
 %--------------------------------------------------------------------------------
 %                                    Constants                                  -
 %--------------------------------------------------------------------------------
-\def\afterheaderspace{1pt}
-\def\beforesectionheaderspace{0pt}
+\def\afterheaderspace{3pt}
+\def\beforesectionheaderspace{1pt}
 \def\sectionheadermargin{6pt}
 \def\aftersectionheaderspace{0pt}
 \def\sectionheaderhrlueheight{0.5pt}
@@ -88,7 +88,7 @@
 \def\aftermultilinesubsectionheaderspace{0pt}
 \def\afteremptysubsectionheaderspace{0pt}
 \def\subsectionmargin{6pt}
-\def\aftersubsectionspace{-5pt}
+\def\aftersubsectionspace{2pt}
 
 %--------------------------------------------------------------------------------
 %                            Header Setup and Printing                          -
