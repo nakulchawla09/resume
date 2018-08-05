@@ -20,28 +20,18 @@
 %% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 %% SOFTWARE.
 \ProvidesClass{mcdowellcv}[2015/12/15 v1.1.0 McDowell CV class]
-
-% Set up the fonts according to options
-\def\mainfontsize{10pt}
-\def\mainfontface{Computer Modern}
-
-\DeclareOption{Computer Modern}{%
-  \def\mainfontface{Computer Modern}
-}
-
 \ProcessOptions\relax
 
 % Set font size and paper type
-\LoadClass[letterpaper,\mainfontsize]{article} 
+\LoadClass[letterpaper,10pt]{article}
 
 % Set document margins
-\usepackage[left=0.30in,top=0.30in,right=0.30in,bottom=0.30in]{geometry} 
+\usepackage[left=0.65in,top=0.5in,right=0.65in,bottom=0.5in]{geometry} 
 
 % Set font face
-\usepackage{fontspec}
-%\setmainfont[SmallCapsFeatures={Renderer=Basic},
-%Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
-%Ligatures={TeX }]{\mainfontface}
+% \usepackage{fontspec}
+% \setmainfont[SmallCapsFeatures={Renderer=Basic},
+% Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 
 % Remove paragraph indentation
 \usepackage[parfill]{parskip} 
@@ -69,26 +59,22 @@
 
 % For spcaed small caps
 \usepackage{microtype}
-
-\DeclareMicrotypeSet*{smallcapsi} { 
-	encoding = {OT1,T1,T2A,LY1,OT4,QX,T5,TS1,EU1,EU2},
-	shape    = {sc*,si,scit}
-}
+\usepackage[T1]{fontenc}
 
 %--------------------------------------------------------------------------------
 %                                    Constants                                  -
 %--------------------------------------------------------------------------------
 \def\afterheaderspace{3pt}
-\def\beforesectionheaderspace{1pt}
+\def\beforesectionheaderspace{4.75pt}
 \def\sectionheadermargin{6pt}
-\def\aftersectionheaderspace{0pt}
+\def\aftersectionheaderspace{-4pt}
 \def\sectionheaderhrlueheight{0.5pt}
-\def\aftersinglelinesubsectionheaderspace{-5.5pt}
-\def\afterdoublelinesubsectionheaderspace{0pt}
-\def\aftermultilinesubsectionheaderspace{0pt}
-\def\afteremptysubsectionheaderspace{0pt}
-\def\subsectionmargin{6pt}
-\def\aftersubsectionspace{2pt}
+\def\aftersinglelinesubsectionheaderspace{-18.5pt}
+\def\afterdoublelinesubsectionheaderspace{-10pt}
+\def\aftermultilinesubsectionheaderspace{-6pt}
+\def\afteremptysubsectionheaderspace{3pt}
+\def\subsectionmargin{9pt}
+\def\aftersubsectionspace{4pt}
 
 %--------------------------------------------------------------------------------
 %                            Header Setup and Printing                          -
@@ -101,7 +87,7 @@
 \address{}
 
 \newcommand\printaddress{
-	\small{\@address}
+    \small{\@address}
 }
 
 \makeatother
@@ -113,7 +99,7 @@
 \name{}
 
 \newcommand\printname{
-	\textbf{\LARGE\textls[110]{\textsc{\@name}}}
+    \textbf{\LARGE\textls[110]{\textsc{\@name}}}
 }
 
 \makeatother
@@ -125,19 +111,19 @@
 \contacts{}
 
 \newcommand\printcontacts{
-	\small{\@contacts}
+    \small{\@contacts}
 }
 
 \makeatother
 
 \makeatletter
 \newcommand\makeheader{
-	\begin{center}
-		\begin{tabu} to 1\textwidth { X[l,m] X[2,c,m] X[r,m] }
-			\printaddress & \printname & \printcontacts \\
-		\end{tabu}	
-	\end{center}
-	\vspace*{\afterheaderspace}
+    \begin{center}
+        \begin{tabu} to 1\textwidth { X[l,m] X[1,c,m] X[r,m] }
+            \printaddress & \printname & \printcontacts \\
+        \end{tabu}
+    \end{center}
+    \vspace*{\afterheaderspace}
 }
 \makeatother
 
@@ -148,14 +134,14 @@
 % Print a section header
 \makeatletter
 \newenvironment{cvsection}[1]{
-	\vspace*{\beforesectionheaderspace}
-	% Set text margins to equal \tabcolsep (6pt by default)
-	\begin{adjustwidth}{\sectionheadermargin}{\sectionheadermargin}
-		\textsc{\textbf{#1}}
-	\end{adjustwidth}
-	\smallskip
-	\hrule height \sectionheaderhrlueheight
-	\vspace*{\aftersectionheaderspace}
+    \vspace*{\beforesectionheaderspace}
+    % Set text margins to equal \tabcolsep (6pt by default)
+    \begin{adjustwidth}{\sectionheadermargin}{\sectionheadermargin}
+        \textsc{\textbf{#1}}
+    \end{adjustwidth}
+    \smallskip
+    \hrule height \sectionheaderhrlueheight
+    \vspace*{\aftersectionheaderspace}
 }{}
 \makeatother
 
@@ -167,29 +153,38 @@
 \newtoggle{righttitledefined}
 
 \newenvironment{cvsubsection}[4][1]{
-	\notblank{#2}{\toggletrue{lefttitledefined}}{}
-	\notblank{#3}{\toggletrue{centertitledefined}}{}
-	\notblank{#4}{\toggletrue{righttitledefined}}{}
-	\ifboolexpr{togl {lefttitledefined} or togl {centertitledefined} or togl {righttitledefined}}{
-		\begin{tabu} to 1\textwidth { X[l,p] X[c,p] X[r,p] }
-			\textbf{#2} & \textbf{#3} & \textbf{#4} \\
-		\end{tabu}
-		% Add space according to the specidied number of lines
-		\ifnumcomp{#1}{=}{1}{\vspace*{\aftersinglelinesubsectionheaderspace}}{
-			\ifnumcomp{#1}{=}{1}{\vspace*{\afterdoublelinesubsectionheaderspace}}{
-				\vspace*{\aftermultilinesubsectionheaderspace}
-			}
-		}
-	}{
-		\vspace*{\afteremptysubsectionheaderspace}
-	}
-	\togglefalse{lefttitledefined}
-	\togglefalse{centertitledefined}
-	\togglefalse{righttitledefined}
-	\begin{adjustwidth}{\subsectionmargin}{\subsectionmargin}
+    \notblank{#2}{\toggletrue{lefttitledefined}}{}
+    \notblank{#3}{\toggletrue{centertitledefined}}{}
+    \notblank{#4}{\toggletrue{righttitledefined}}{}
+    \ifboolexpr{togl {lefttitledefined} or togl {centertitledefined} or togl {righttitledefined}}{
+        \begin{tabu} to 1\textwidth { X[l,p] X[1.5,c,p] X[r,p] }
+            \textbf{#2} & \textbf{#3} & \textbf{#4} \\
+        \end{tabu}
+        % Add space according to the specidied number of lines
+        \ifnumcomp{#1}{=}{1}{\vspace*{\aftersinglelinesubsectionheaderspace}}{
+            \ifnumcomp{#1}{=}{2}{\vspace*{\afterdoublelinesubsectionheaderspace}}{
+                \vspace*{\aftermultilinesubsectionheaderspace}
+            }
+        }
+    }{
+        \vspace*{\afteremptysubsectionheaderspace}
+    }
+    \togglefalse{lefttitledefined}
+    \togglefalse{centertitledefined}
+    \togglefalse{righttitledefined}
+    \begin{adjustwidth}{\subsectionmargin}{\subsectionmargin}
 }
 {
-	\end{adjustwidth}
-	\vspace*{\aftersubsectionspace}
+    \end{adjustwidth}
+    \vspace*{\aftersubsectionspace}
+}
+\makeatother
+
+\newenvironment{cvsubsectionitem}{
+    \renewcommand\labelitemi{\tiny$\bullet$}
+    \begin{itemize}[label=\raisebox{0.4ex}{\scriptsize$\bullet$}]
+}
+{
+    \end{itemize}
 }
 \makeatother

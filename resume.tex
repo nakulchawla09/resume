@@ -1,0 +1,123 @@
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{xcolor}
+\usepackage{hyperref}
+% \usepackage[colorlinks = true,
+%             linkcolor = blue,
+%             urlcolor  = blue,
+%             citecolor = blue,
+%             anchorcolor = blue]{hyperref}
+\definecolor{myblue}{HTML}{00008B}
+\hypersetup{
+  linkcolor  = myblue,
+  citecolor  = myblue,
+  urlcolor   = myblue,
+  colorlinks = true,
+}
+
+
+% Set applicant's personal data for header
+\name{Nakul Chawla}
+\address{\href{https://nakul.net}{https://nakul.net} \linebreak \href{https://github.com/thenakulchawla}{https://github.com/thenakulchawla}}
+\contacts{Cell: (480) 930-6967  \linebreak Email: \href{mailto:nakulchawla09@gmail.com}{nakulchawla09@gmail.com}}
+
+\begin{document}
+
+% Print the header
+    \makeheader
+
+    % Print the content
+    \begin{cvsection}{Employment}
+        \begin{cvsubsection}{Research Assistant}{\href{https://blockchain.asu.edu}{Blockchain Research Lab, ASU}}{08/2017 -- 05/2018}
+            \begin{cvsubsectionitem}
+            \item Developed Dash-Simulator using Network Simulator 3 to help scale Dash to the next block propagation technique and block size with profitable orphan rates -- \href{https://github.com/thenakulchawla/dash-simulator}{dash-simulator}
+            \item Added Compact and xthin block propagation techniques to the dash-simulator.
+            \item Tested traditional, Compact and xthin for 750 (for better confidence interval) blocks each and published results with orphan rates.-- \href{https://github.com/thenakulchawla/dash-results}{Results}
+            \item Technologies: \emph{C++, Network Simulator 3.25}
+            \end{cvsubsectionitem}
+        \end{cvsubsection}
+        \begin{cvsubsection}{Software Eng. Intern}{\href{https://www.dash.org/}{Dash Core Group, Inc}}{05/2018 -- present}
+            \begin{cvsubsectionitem}
+            \item Implementation of Graphene blocks, utilizing bloom filters and Inverted Bloom Lookup table in order to
+                speed up block propagation for the dash network.
+            \item The transaction payload is encoded into a bloom filter and IBLT in order to prevent false positives
+                and decrease a 1MB block to approximately 2.6KB.
+            \item Develop Python RPC tests for Graphene block propagation.
+            \item Technologies: \emph{C++, Python}
+            \end{cvsubsectionitem}
+        \end{cvsection}
+
+        \begin{cvsubsection}{Co-Founder, Dir. R\&D}{\href{http://innovateblockchain.org}{Blockchain Innovation Society}}{08/2017 -- present}
+            \begin{cvsubsectionitem}
+            \item The non-profit aims at educating public on blockchains and forming an open platform for blockchain resources. 
+            \item Involved in designing platform architecture for BIS and developing REST APIs for the landing page.
+            \item Technologies: \emph{nodeJs, Angular, mongoDB}
+            \end{cvsubsectionitem}
+        \end{cvsubsection}
+
+        \begin{cvsubsection}{Developer BI}{Target Corporation India}{07/2013 -- 07/2016}
+            \begin{cvsubsectionitem}
+            \item Developed full-stack (Rest APIs, MVVM) application for Real Estate tax Analytics team.
+            \item Implemented Database Factory, Unit of Work and Disposable patterns.
+            \item Optimized SQL queries and designed/warehoused the database for faster access of data.
+            \item Developed REST APIs for the Real Estate Tax Application.
+            \item Technologies: \emph{C\#, AngularJs, SQL-Server, Teradata, Hadoop-Spark}
+            \end{cvsubsectionitem}
+        \end{cvsubsection}
+    \end{cvsection}
+
+    \begin{cvsection}{Education}
+        \begin{cvsubsection}{M.S. Computer Science}{Arizona State University, Tempe, AZ}{08/2016 -- 05/2018}
+         \textbf{Thesis:} Blockchains Proof of Work Sharding - Having to store less data on a full node and still be able to
+            verify transactions. \\
+         \textbf{Relevant Coursework:} Advanced Memory Systems, Advanced Database Systems, Distributed Database Systems, Distributed
+            and Multiprocessor Operating Systems, Algorithms and Data structures, Principles of Programming Language
+        \end{cvsubsection}
+        \begin{cvsubsection}{B.E. Information Tech.}{M.S Ramaiah Institute of Technology}{08/2009 -- 05/2013}
+        \end{cvsubsection}
+    \end{cvsection}
+
+    \begin{cvsection}{Technical Skills}
+        \begin{cvsubsection}{}{}{}
+            \begin{cvsubsectionitem}
+                \item Python, Linux, C++, SQL, C, REST, AutoTools, JavaScript, Docker, C\#, AngularJs, NodeJs, Git,
+                    .Net, IIS.
+            \end{cvsubsectionitem}
+        \end{cvsubsection}
+    \end{cvsection}
+
+    \begin{cvsection}{Projects}
+        \begin{cvsubsection}{}{}{}
+            \begin{cvsubsectionitem}
+            \item \itextbf{In-Memory Spatial Database Index}
+                \begin{itemize}
+                    \item Developed PR-Quadtrees to index the space for the in-memory database.
+                    \item Improvised the space usage by approx. 40\%  by adding more points to one region of the
+                        quad tree.
+                \end{itemize}
+
+            \end{cvsubsectionitem}
+        \end{cvsubsection}
+    \end{cvsection}
+
+    \begin{cvsection}{Publications}
+        \begin{cvsubsection}{}{}{}
+            \begin{cvsubsectionitem}
+            \item Whitepaper: Block Propagation Applied to Nakamoto Consensus.
+                \href{https://blockchain.asu.edu/block-propagation-applied-to-nakamoto-networks} {Block Propagation
+                Applied to Nakamoto Consensus}
+            \end{cvsubsectionitem}
+        \end{cvsubsection}
+    \end{cvsection}
+
+    \begin{cvsection}{Additional Experience and Awards}
+        \begin{cvsubsection}{}{}{}
+            \begin{cvsubsectionitem}
+            \item Featured in Thrive magazine at ASU for conducting research in blockchains. -- \href{https://asunow.asu.edu/20180327-solutions-asu-engineers-data-defenders}{Data defender}
+            \end{cvsubsectionitem}
+        \end{cvsubsection}
+    \end{cvsection}
+
+\end{document}

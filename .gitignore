@@ -3,3 +3,4 @@
 *.out
 *.fls
 *.pdf
+.DS_Store
