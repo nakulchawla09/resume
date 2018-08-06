@@ -41,14 +41,15 @@
         \end{cvsubsection}
         \begin{cvsubsection}{Software Eng. Intern}{\href{https://www.dash.org/}{Dash Core Group, Inc}}{05/2018 -- present}
             \begin{cvsubsectionitem}
-            \item Implementated Graphene block propagation, that utilizes set reconciliation instead of sending all
+            \item Implemented Graphene block propagation, that utilizes set reconciliation instead of sending all
                 transaction IDs that the receiver already has when the transactions are broadcast.
             \item Graphene comprises of bloom filter of all transaction IDs in a bloom filter and an Inverted bloom
                 lookup table created using the bloom filter. The False positive rate of bloom filter is set by the
                 Sender.
-            \item The FPR of the bloom filter can be set high in lue that IBLT recovers the information efficeintly.
+            \item The FPR of the bloom filter can be set high in lue that IBLT recovers the information efficiently.
             \item The IBLT takes 17 bytes per transaction for encoding, therefore, only IBLT is not used for encoding
                 the transactions.
+            \item Developed Express validation for blocks, and prevents DoS attacks against Expedited blocks.
             \item Technologies: \emph{C++, Python}
             \end{cvsubsectionitem}
         \end{cvsection}

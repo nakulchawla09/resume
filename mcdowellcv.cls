@@ -23,10 +23,10 @@
 \ProcessOptions\relax
 
 % Set font size and paper type
-\LoadClass[letterpaper,10pt]{article}
+\LoadClass[letterpaper,9.5pt]{article}
 
 % Set document margins
-\usepackage[left=0.55in,top=0.45in,right=0.55in,bottom=0.45in]{geometry} 
+\usepackage[left=0.55in,top=0.40in,right=0.55in,bottom=0.40in]{geometry} 
 
 % Set font face
 % \usepackage{fontspec}
@@ -73,8 +73,8 @@
 \def\afterdoublelinesubsectionheaderspace{-10pt}
 \def\aftermultilinesubsectionheaderspace{-6pt}
 \def\afteremptysubsectionheaderspace{3pt}
-\def\subsectionmargin{9pt}
-\def\aftersubsectionspace{4pt}
+\def\subsectionmargin{8pt}
+\def\aftersubsectionspace{3pt}
 
 %--------------------------------------------------------------------------------
 %                            Header Setup and Printing                          -
