@@ -20,58 +20,63 @@
 
 % Set applicant's personal data for header
 \name{Nakul Chawla}
-\address{\href{https://nakul.net}{https://nakul.net} \linebreak \href{https://github.com/thenakulchawla}{https://github.com/thenakulchawla}}
-\contacts{Cell: (480) 930-6967  \linebreak Email: \href{mailto:nakulchawla09@gmail.com}{nakulchawla09@gmail.com}}
+\address{\href{https://nakul.net}{https://nakul.net} \linebreak
+\href{https://linkedin.com/in/thenakulchawla}{https://linkedin.com/in/thenakulchawla}}
+\contacts{Cell: (480) 930-6967  \linebreak Email: \href{mailto:nchawla3@asu.edu}{nchawla3@asu.edu}}
 
 \begin{document}
 
 % Print the header
     \makeheader
-
     % Print the content
-    \begin{cvsection}{Employment}
-        \begin{cvsubsection}{Research Assistant}{\href{https://blockchain.asu.edu}{Blockchain Research Lab, ASU}}{08/2017 -- 05/2018}
+    \begin{cvsection}{Work Experience}
+        \begin{cvsubsection}{Software Eng. Intern}{\href{https://www.dash.org/}{Dash Core Group, Inc}}{05/2018 --
+            08/2018}
             \begin{cvsubsectionitem}
-            \item Developed Dash-Simulator using Network Simulator 3 to help scale Dash to the next block propagation technique and block size with profitable orphan rates -- \href{https://github.com/thenakulchawla/dash-simulator}{dash-simulator}
-            \item Developed Compact and Xthin block propagation for the dash-simulator.
-            \item Simulated traditional, Compact and xthin for 750 (for better confidence interval) blocks each and
-                analyzed orphan rates.-- \href{https://github.com/thenakulchawla/dash-results}{Results}
-            \item Technologies: \emph{C++, Network Simulator 3.25}
-            \end{cvsubsectionitem}
-        \end{cvsubsection}
-        \begin{cvsubsection}{Software Eng. Intern}{\href{https://www.dash.org/}{Dash Core Group, Inc}}{05/2018 -- present}
-            \begin{cvsubsectionitem}
-            \item Implemented Graphene block propagation, that utilizes set reconciliation instead of sending all
-                transaction IDs that the receiver already has when the transactions are broadcast.
-            \item Graphene comprises of bloom filter of all transaction IDs in a bloom filter and an Inverted bloom
-                lookup table created using the bloom filter. The False positive rate of bloom filter is set by the
-                Sender.
-            \item The FPR of the bloom filter can be set high in lue that IBLT recovers the information efficiently.
-            \item The IBLT takes 17 bytes per transaction for encoding, therefore, only IBLT is not used for encoding
-                the transactions.
+            \item Implemented Graphene block propagation, that decreases block payload by encoding the already
+                broadcasted transactions into a bloom filter and an Inverted bloom lookup table (IBLT), keeping the False
+                positive rate(FPR) adjustable by the sender .
+            \item In order to reduce the overall bandwidth used by a block to propagate, both bloom filter that is
+                associated with an FPR, and IBLT that uses 17 bytes per transaction, are used.
             \item Developed Express validation for blocks, and prevents DoS attacks against Expedited blocks.
-            \item Technologies: \emph{C++, Python}
+            \item Acquired deep understanding of decentralized peer to peer networks. 
+            % \item Technologies: \emph{C++, Python}
             \end{cvsubsectionitem}
         \end{cvsection}
+        \begin{cvsubsection}{Research Assistant}{\href{https://blockchain.asu.edu}{Blockchain Research Lab,
+            ASU}}{08/2017 -- present}
+            \begin{cvsubsectionitem}
+            \item Developed a simulator for Dash network using Network Simulator 3 to choose a propagation technology between
+                xthin and compact by analyzing orphan rates for higher block sizes (upto 10MB). -- \href{https://github.com/thenakulchawla/dash-simulator}{dash-simulator}
+            \item The research addresses scalability issues with Dash network by showing that xthin(10MB block
+                size) propagation increased throughput to 120 tx/sec (2.5x faster than compact(4MB block size)) at profitable mining rates.
+            % \item Technologies: \emph{C++, Network Simulator 3.25, Python waf}
+            \end{cvsubsectionitem}
+        \end{cvsubsection}
 
         \begin{cvsubsection}{Developer BI}{Target Corporation India}{07/2013 -- 07/2016}
             \begin{cvsubsectionitem}
-            \item Developed full-stack (Rest APIs, MVVM) application for Real Estate tax Analytics team.
-            \item Implemented Database Factory, Unit of Work and Disposable patterns.
-            \item Optimized SQL queries and designed/warehoused the database on SQL Server.
-            \item Developed REST APIs for the Real Estate Tax Application.
-            \item Technologies: \emph{C\#, AngularJs, SQL-Server, Teradata, Hadoop-Spark}
+            \item Designed and developed full-stack (Rest APIs, MVVM) application for Real Estate tax Analytics team.
+                The application provided a platform for users to automatically file taxes in time, which was previously
+                done manually using spreadsheet.
+            \item Achieved faster data processing by optimizing advanced SQL queries.
+            \item Responsible for designing and database  warehousing for a type 2 financial vendor income database to
+                store historical information.
+            % \item Technologies: \emph{C\#, AngularJs, SQL-Server, Teradata, Hadoop-Spark}
             \end{cvsubsectionitem}
         \end{cvsubsection}
     \end{cvsection}
 
     \begin{cvsection}{Education}
-        \begin{cvsubsection}{M.S. Computer Science}{Arizona State University, Tempe, AZ}{08/2016 -- 05/2018}
-         \textbf{Thesis:} Blockchains Proof of Work Sharding - Shared/dispersed storage for blockchains.  \\
+        \begin{cvsubsection}{M.S. Computer Science}{Arizona State University, Tempe, AZ}{08/2016 -- 12/2018}
+            \textbf{GPA: } 3.30 \\
+         \textbf{Thesis:} Blockchains Proof of Work Sharding - Distributed storage for blockchains to reduce overall
+            memory footprint of a full node in a peer to peer network. \\
             \textbf{Relevant Coursework:} Advanced Memory Systems, Advanced Database Systems, Distributed Database Systems, Distributed
             and Multiprocessor Operating Systems, Algorithms and Data structures, Principles of Programming Language
         \end{cvsubsection}
-        \begin{cvsubsection}{B.E. Information Tech.}{M.S Ramaiah Institute of Technology}{08/2009 -- 05/2013}
+        \begin{cvsubsection}{B.E. Information Science}{M.S Ramaiah Institute of Technology}{08/2009 -- 05/2013}
+            \textbf{Relevant Coursework:} Computer Networks, Operating Systems
         \end{cvsubsection}
     \end{cvsection}
 
@@ -79,7 +84,7 @@
         \begin{cvsubsection}{}{}{}
             \begin{cvsubsectionitem}
                 \item Python, Linux, C++, SQL, C, REST, AutoTools, JavaScript, Docker, C\#, AngularJs, NodeJs, Git,
-                    .Net, IIS.
+                    .Net, IIS, docker.
             \end{cvsubsectionitem}
         \end{cvsubsection}
     \end{cvsection}
@@ -114,12 +119,12 @@
         \end{cvsubsection}
     \end{cvsection}
 
-    \begin{cvsection}{Additional Experience and Awards}
-        \begin{cvsubsection}{}{}{}
-            \begin{cvsubsectionitem}
-            \item Featured in Thrive magazine at ASU for conducting research in blockchains. -- \href{https://asunow.asu.edu/20180327-solutions-asu-engineers-data-defenders}{Data defender}
-            \end{cvsubsectionitem}
-        \end{cvsubsection}
-    \end{cvsection}
+    % \begin{cvsection}{Additional Experience and Awards}
+    %     \begin{cvsubsection}{}{}{}
+    %         \begin{cvsubsectionitem}
+    %         \item Featured in Thrive magazine at ASU for conducting research in blockchains. -- \href{https://asunow.asu.edu/20180327-solutions-asu-engineers-data-defenders}{Data defender}
+    %         \end{cvsubsectionitem}
+    %     \end{cvsubsection}
+    % \end{cvsection}
 
 \end{document}
